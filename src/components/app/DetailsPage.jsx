@@ -1,5 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { getCharacters } from '../../services/LastAirbenderAPI';
 
-export default function App() {
-  return <h1>This is the details page</h1>;
+export default class DetailsPage extends Component {
+  state = {
+    character: []
+  }
+
+  componentDidMount() {
+    getCharacters()
+      .then(character => this.setState({ character }));
+  }
+
+  render() {
+    const { character } = this.state;
+
+    return (
+
+    );
+  }
 }
