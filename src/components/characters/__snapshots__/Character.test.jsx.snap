@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component matches a snapshot 1`] = `
+<DocumentFragment>
+  <figure>
+    <figcaption>
+      Samuel
+    </figcaption>
+    <img
+      src="http//image.com"
+    />
+    <p>
+      affiliation
+    </p>
+  </figure>
+</DocumentFragment>
+`;

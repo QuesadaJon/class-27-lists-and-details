@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { getCharacters } from '../../services/LastAirbenderAPI';
-import CharacterList from '../CharacterList';
+import { getCharacters } from '../services/LastAirbenderAPI';
+import CharacterList from '../components/characters/CharacterList';
 
 export default class ListPage extends Component {
   state = {
